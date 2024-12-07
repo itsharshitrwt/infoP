@@ -1,4 +1,4 @@
-import {useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 
 const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789<>/[]{}()=+-*&^%$#@!';
@@ -27,7 +27,7 @@ export function CodeMatrix() {
       ctx.fillStyle = 'rgba(10, 10, 10, 0.05)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
       
-      ctx.fillStyle = '#10B981';
+      ctx.fillStyle = '#22c55e'; // Updated to bg-green-500 color
       ctx.font = '15px monospace';
       
       const offsetX = (mousePosition.current.x - canvas.width / 2) * 0.05;
@@ -89,14 +89,24 @@ export function CodeMatrix() {
           transition={{ delay: 0.3 }}
           className="text-center z-10 px-6 py-8 rounded-xl bg-black/50 backdrop-blur-sm border border-emerald-500/20"
         >
-          <h3 className="text-3xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-emerald-400 to-emerald-600 text-transparent bg-clip-text">
-              Code is Poetry
-            </span>
-          </h3>
-          <p className="text-emerald-300 max-w-md">
-            Move your mouse to interact with the matrix and discover the beauty of code in motion
-          </p>
+        <div className='flex flex-col md:flex-row items-center'>
+  <div className="flex flex-col">
+    <h3 className="text-3xl font-bold mb-4">
+      <span className="bg-gradient-to-r text-green-400  bg-clip-text">
+        Code is Poetry
+      </span>
+    </h3>
+    <p className="text-green-500 max-w-md mb-4 md:mb-0">
+      Move your mouse to interact with the matrix and discover the beauty of code in motion
+    </p>
+  </div>
+  <img
+    src="https://cdn.shopify.com/s/files/1/0086/0795/7054/files/Golden-Retriever.jpg?v=1645179525"
+    className="h-10 w-10 md:ml-4 md:h-16 md:w-16"
+    alt="Golden Retriever"
+  />
+</div>
+
         </motion.div>
       </div>
     </motion.div>

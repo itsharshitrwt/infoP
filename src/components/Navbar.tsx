@@ -28,7 +28,7 @@ export function Navbar() {
             whileHover={{ scale: 1.05 }}
           >
             <Terminal className="w-8 h-8 text-emerald-400" />
-            <span className="text-xl font-bold text-white">DevFolio</span>
+            <span className="text-xl font-bold text-white">Hi,👋</span>
           </motion.div>
           <div className="hidden md:flex items-center gap-8">
             {['About', 'Projects', 'Articles', 'Contact'].map((item) => (

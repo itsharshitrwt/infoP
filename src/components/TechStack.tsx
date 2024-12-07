@@ -5,7 +5,7 @@ import { GradientText } from './ui/GradientText';
 
 const technologies = [
   'React', 'TypeScript', 'Node.js', 'Next.js', 'TailwindCSS',
-  'PostgreSQL', 'MongoDB', 'Docker', 'AWS', 'GraphQL'
+  'PostgreSQL', 'MongoDB', 'Docker', 'Figma', 'GCP', 'ShadcnUI', 'Go'
 ];
 
 export function TechStack() {

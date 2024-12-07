@@ -36,8 +36,8 @@ export function AboutMe() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl font-bold text-green-500 mb-6">About Me</h2>
-          <p className="text-xl text-green-500 max-w-3xl mx-auto">
+          <h2 className="text-5xl font-bold text-white mb-6 p-2">About <span className='bg-green-500 p-3 rounded-full'>Me</span></h2>
+          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
             I'm a passionate developer with a love for creating sustainable and scalable solutions.
             When I'm not coding, you'll find me exploring nature and finding inspiration in its patterns.
           </p>

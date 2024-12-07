@@ -48,7 +48,7 @@ export function Articles() {
     <section
       className="py-20 px-8"
       style={{
-        background: 'bg-[#1A1A1A]/50'
+        background: 'bg-green-700'
       }}
     >
       <h2 className="text-3xl font-bold text-center text-green-500 mb-12">
@@ -70,7 +70,7 @@ export function Articles() {
                 <h3 className="text-xl font-bold text-emerald-800">
                   {article.title}
                 </h3>
-                <div className="flex gap-4 text-sm text-gray-500">
+                <div className="flex gap-4 text-sm text-gray-500 hidden md:block">
                   <span>{article.date}</span>
                   <span>{article.readTime}</span>
                 </div>
