@@ -2,45 +2,37 @@ import { ArrowRight } from 'lucide-react';
 
 const articles = [
   {
-    title: 'Building Scalable React Apps',
+    title: 'My first Solo Hackathon',
     excerpt: 'Learn best practices for building large-scale React applications...',
-    date: 'Mar 15, 2024',
-    readTime: '5 min read',
-    imageUrl: 'https://via.placeholder.com/150',
-    link: 'https://example.com/building-scalable-react-apps'
-  },
-  {
-    title: 'Modern TypeScript Features You Should Know',
-    excerpt: 'Exploring the latest TypeScript features that improve development...',
-    date: 'Mar 10, 2024',
-    readTime: '4 min read',
-    imageUrl: 'https://via.placeholder.com/150',
-    link: 'https://example.com/modern-typescript-features'
-  },
-  {
-    title: 'Optimizing Web Performance',
-    excerpt: 'Essential techniques for improving your website\'s performance...',
-    date: 'Mar 5, 2024',
-    readTime: '6 min read',
-    imageUrl: 'https://via.placeholder.com/150',
-    link: 'https://example.com/optimizing-web-performance'
-  },
-  {
-    title: 'Introduction to Next.js',
-    excerpt: 'A beginner-friendly guide to building web apps with Next.js...',
-    date: 'Feb 25, 2024',
+    date: 'Dec, 2024',
     readTime: '3 min read',
-    imageUrl: 'https://via.placeholder.com/150',
-    link: 'https://example.com/introduction-to-nextjs'
+    imageUrl: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1733035651419/f1b18ffe-e77f-4632-9783-4c93ae9ac37c.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
+    link: 'https://harshitrwt.hashnode.dev/my-journey-through-my-first-solo-hackathon-adventure'
   },
   {
-    title: 'CSS-in-JS vs. Traditional CSS',
-    excerpt: 'Comparing the pros and cons of CSS-in-JS and traditional CSS...',
-    date: 'Feb 20, 2024',
-    readTime: '5 min read',
-    imageUrl: 'https://via.placeholder.com/150',
-    link: 'https://example.com/css-in-js-vs-traditional-css'
-  }
+    title: 'The Definitive Guide to DSA',
+    excerpt: 'Exploring the latest TypeScript features that improve development...',
+    date: 'Sep, 2024',
+    readTime: '4 min read',
+    imageUrl: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1727014109834/80e94206-a733-4d7b-a796-b2c463419431.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
+    link: 'https://harshitrwt.hashnode.dev/the-definitive-dsa-guide-building-strong-skills-from-scratch'
+  },
+  {
+    title: 'SDLC Made Easy',
+    excerpt: 'Essential techniques for improving your website\'s performance...',
+    date: 'Jul, 2024',
+    readTime: '6 min read',
+    imageUrl: 'https://cdn.hashnode.com/res/hashnode/image/stock/unsplash/faEfWCdOKIg/upload/878aab4e8d6880683e87f76dfceb252e.jpeg?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
+    link: 'https://harshitrwt.hashnode.dev/software-development-life-cycle-made-easy'
+  },
+  {
+    title: 'AI Responses Enhancement',
+    excerpt: 'A beginner-friendly guide to building web apps with Next.js...',
+    date: 'Jul, 2024',
+    readTime: '3 min read',
+    imageUrl: 'https://cdn.hashnode.com/res/hashnode/image/upload/v1720941875640/89994f70-4e36-43fd-9d0e-7f45e4cb7001.png?w=1600&h=840&fit=crop&crop=entropy&auto=compress,format&format=webp',
+    link: 'https://harshitrwt.hashnode.dev/enhancing-ai-responses-by-merging-cloud-expertise-with-prompt-engineering'
+  },
 ];
 
 export function Articles() {
@@ -67,10 +59,10 @@ export function Articles() {
             />
             <div className="flex-1">
               <div className="flex justify-between items-start mb-4">
-                <h3 className="text-xl font-bold text-emerald-800">
+                <h3 className="text-xl font-bold text-green-500">
                   {article.title}
                 </h3>
-                <div className="flex gap-4 text-sm text-gray-500 hidden md:block">
+                <div className="gap-4 text-sm text-gray-500 hidden md:block">
                   <span>{article.date}</span>
                   <span>{article.readTime}</span>
                 </div>
@@ -80,7 +72,7 @@ export function Articles() {
                 href={article.link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center text-emerald-600 hover:text-emerald-700"
+                className="inline-flex items-center text-green-500 hover:text-green-500"
               >
                 Read more <ArrowRight className="w-4 h-4 ml-2" />
               </a>

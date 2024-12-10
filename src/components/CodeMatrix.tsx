@@ -93,11 +93,11 @@ export function CodeMatrix() {
   <div className="flex flex-col">
     <h3 className="text-3xl font-bold mb-4">
       <span className="bg-gradient-to-r text-green-400  bg-clip-text">
-        Code is Poetry
+        Code Coffee Continue
       </span>
     </h3>
     <p className="text-green-500 max-w-md mb-4 md:mb-0">
-      Move your mouse to interact with the matrix and discover the beauty of code in motion
+      Move your mouse to interact with the matrix
     </p>
   </div>
   <img

@@ -48,7 +48,7 @@ export function Projects() {
 
   return (
     <section className="py-20 px-8 bg-[#121615]">
-      <h2 className="text-3xl font-bold text-center text-green-500 mb-12">
+      <h2 className="text-3xl font-bold text-center text-white mb-12">
         My <span className="bg-green-500 text-black px-2">Projects</span>
       </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">

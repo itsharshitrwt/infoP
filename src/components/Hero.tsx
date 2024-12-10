@@ -67,6 +67,32 @@ export function Hero() {
             </motion.a>
           ))}
         </motion.div>
+
+        
+        <motion.div 
+          className="flex gap-4 mt-8"
+          initial={{ opacity: 0, y: 20 }} 
+          animate={{ opacity: 1, y: 0 }} 
+          transition={{ duration: 0.6, delay: 1 }} 
+        >
+          <motion.a 
+            href="/path-to-your-resume.pdf" // Update with your actual resume path
+            className="px-6 py-3 bg-black border 2 border-green-500 text-white rounded-full hover:bg-green-600 transition-colors"
+            whileHover={{ scale: 1.05 }} 
+            whileTap={{ scale: 0.95 }}
+          >
+            My Resume
+          </motion.a>
+          
+          <motion.a 
+            href="mailto:getintouch@example.com" 
+            className="px-6 py-3  bg-black border 2 border-green-500 text-white rounded-full hover:bg-green-600 transition-colors"
+            whileHover={{ scale: 1.05 }} 
+            whileTap={{ scale: 0.95 }}
+          >
+            Get in Touch
+          </motion.a>
+        </motion.div>
       </motion.div>
     </section>
   );

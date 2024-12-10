@@ -1,11 +1,11 @@
-import React from 'react';
+
 import { Send } from 'lucide-react';
 
 export function Contact() {
   return (
     <section className="py-20 px-8">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-3xl font-bold text-center text-emerald-800 mb-12">
+        <h2 className="text-3xl font-bold text-center text-green-600 mb-12">
           Get in Touch
         </h2>
         <form className="space-y-6">
