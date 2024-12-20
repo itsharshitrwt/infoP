@@ -96,13 +96,13 @@ export function CodeMatrix() {
         Code Coffee Continue
       </span>
     </h3>
-    <p className="text-green-500 max-w-md mb-4 md:mb-0">
+    <p className="text-green-500 max-w-md mb-4 md:mb-0 hidden md:block">
       Move your mouse to interact with the matrix
     </p>
   </div>
   <img
     src="https://cdn.shopify.com/s/files/1/0086/0795/7054/files/Golden-Retriever.jpg?v=1645179525"
-    className="h-10 w-10 md:ml-4 md:h-16 md:w-16"
+    className="h-10 w-10 md:ml-4 md:h-16 md:w-16 hidden md:block"
     alt="Golden Retriever"
   />
 </div>

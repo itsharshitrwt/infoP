@@ -4,41 +4,41 @@ import { useState } from 'react';
 const projects = [
   {
     title: 'Ownspace',
-    description: 'A full-featured e-commerce solution with real-time inventory management',
-    image: 'https://images.unsplash.com/photo-1557821552-17105176677c',
+    description: 'A full-featured Chat Application that allows real time messaging',
+    image: 'https://static.vecteezy.com/system/resources/previews/014/664/394/non_2x/chat-bot-symbol-and-logo-icon-vector.jpg',
     github: 'https://github.com/itsharshitrwt/Ownspace',
     live: 'https://ownspace.vercel.app/'
   },
   {
     title: 'GreenPulse',
-    description: 'Collaborative task management tool with real-time updates',
-    image: 'https://images.unsplash.com/photo-1507925921958-8a62f3d1a50d',
+    description: 'Application designed for environmental protection, lets you tarck your carbon footprints live',
+    image: 'https://png.pngtree.com/template/20190309/ourmid/pngtree-go-green-illustration-icon-image_64510.jpg',
     github: 'https://github.com/itsharshitrwt/GreenPulse-HackFrost',
     live: 'https://greenpulse-ashy.vercel.app/'
   },
   {
     title: 'Brief',
-    description: 'Real-time weather monitoring with interactive maps',
-    image: 'https://images.unsplash.com/photo-1592210454359-9043f067919b',
+    description: 'Real-time youtube video to transcript converter',
+    image: 'https://static.vecteezy.com/system/resources/thumbnails/001/918/424/small/abstract-colorful-audio-wave-in-circle-logo-sign-symbol-icon-vector.jpg',
     github: 'https://github.com/itsharshitrwt/Brief',
     live: 'https://briefai.vercel.app/'
   },
   {
     title: 'GearVaue',
-    description: 'Expense tracking app with advanced visualization and analytics',
-    image: 'https://images.unsplash.com/photo-1517433456452-f9633a875f6f',
+    description: 'App that uses Linear regression to predict your vehicles price',
+    image: 'https://img.freepik.com/premium-vector/rent-car-logo-design-concept-vector-art-illustration_761413-36213.jpg?semt=ais_hybrid',
     github: 'https://github.com/itsharshitrwt/GearValue',
   },
   {
     title: 'GO-WeatherProject',
-    description: 'Photo editing app with AI enhancements for creative professionals',
-    image: 'https://images.unsplash.com/photo-1545239705-59dc1f0c1d52',
+    description: 'A Weather based app made using golang',
+    image: 'https://images-platform.99static.com//fCmzbJuxyBYJ9DwSuvzB1aAK5VQ=/0x0:1024x1024/fit-in/500x500/99designs-contests-attachments/148/148568/attachment_148568717',
     github: 'https://github.com/itsharshitrwt/goweatherproject',
   },
   {
     title: 'PranaPulse',
-    description: 'Fitness planner with custom workout routines and tracking',
-    image: 'https://images.unsplash.com/photo-1515808845130-74c5dc882c77',
+    description: 'Fitness App that lets you select yoga poses and keep tracks of your health',
+    image: 'https://t3.ftcdn.net/jpg/03/89/30/64/360_F_389306425_zAsiEURL3pnvNC3gPotVFrz5whXzMsiB.jpg',
     live: 'https://pranapulse.vercel.app/'
   }
 ];
